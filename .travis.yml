@@ -6,8 +6,8 @@ deploy:
   provider: heroku
   api_key:
     secure: rUegyiK2W13pIvfkDsVrPRLXRd4hmHufvpYsnf1s71pKQtwi0T4O78j5gqIrpx2Gh4cvZZQxUasVevPtZqxxopDXVXQobmyp10Mp+D5GnA4QiLL4hS8xZKCTAnCaOzkXwZ/WFS3YqVqJpsNwN7SZkFs3KkG+9NTWMivniM8uwCgfwl45EoyBNofhMhA1H6lSfaeIEOc5+EFYupo7tAY+ftdnGYh41jwpwd0xzhEadDThwWJ8SGxlYVqtGW69rHEHECkuoLRSRGThEF5FGWrcCuloU07gJXt9odn/AsuIxp/zxxU/FWfQUbZB7wH7htbplSsLwvN40DpoXXkF+UXdBH+HC7RmbbuAhWWV6TRFn/2dx/d0zXoCTRLXLdP5EuMMi0arh15L26NKiO1o7ew1uGytlA1tWoCNYpBeCfK6WPpAhLpt5NpRtHRiMcD5GC+Bfye04uBPnweF0uscTZd3yG3zy+qj94ple/rWXybkfMVXRjgJwpaKnIZMnE0f3lHlrtvLT9wPMWuO+aFtkolAy99le8w5FWf5JX8QxBjfsA3rtj5dcLcrTinjWDBnrJWxcg/7N4+2xuZDSwKWPFCh9JMPv241AHitTslWRlVMP9ZxnoSWkpROq9LPD6ktRcgdhhLUCel9zxw4GPDV1APi4XoASQjxznQlFWi1YSiybpI=
-  app: node-restaurants-app-mongoose
+  app: shrouded-plateau-34709
   on:
-    repo: Thinkful-Ed/node-restaurants-app-mongoose
+    repo: thinkful-ei22/w5d3_Richard_Chasen
 
     branch: feature/with-tests
