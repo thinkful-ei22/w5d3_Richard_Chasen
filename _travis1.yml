@@ -1,0 +1,12 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: SpjO5Wkp/qPXnKuqpGDYCemb8NtNSRO4aAzkxo1FGcNngUjuYiHDtfIGF4umcPdL8gvthDeXR+53r7CwlVOlKc4m+w+7V/vIF8PJTKMS2kaXilk2IY7HUv503HFoD+tT2usZmLkfiYeaILYPaKPbcJwJXyOgajX4H796oqVbgmXu3GRUia88zzV4RYOP/Mh0BoSmY652tiiqEi8Vfw6ueHgzU89OArqVqOX5J466R2hWpfKP55fsvoN7Gr+6Fst1TriyYTLPm7Lx1xmfYAkdbxmeg5xKWU6XN8x5/1Yq5ubd8zcNHm9+rzKWgt/sFN6VJLwN3kHQ0MihHNDiyV8J7lMqKLIGQGQexSSHh+FIVkkx8jDLVepwog2sVCgSsv4dT//pAMqI1REMMpZvcPJPTU67GhawFoNOJzR0e2wA3as0arSuJSqZQY+DQkkkem8WohMl3mYv6j+IKrf21KYjxgI1FSb7A0PgZjrnoXLobuoE2YfljdodiCMka0kZILoiNNDvjRbB6CcdaYwZjQ959GfV6LuZpVbDefqbvzyu0RFbNfQ66EdWAkK4VoAWlW1KDePgbwtdxC9A6lCB5w5urkC6XXmUeeI3Af7oD54J+5OjNjQxeW/Tjlq0ow9GfXnMQCB2+cWcczbe8Y92/bWR9F1d3Ses5R+Z7302b6f4YkA=
+  app: noteful-rich-chasen
+  on:
+    repo: thinkful-ei22/w5d3_Richard_Chasen
+    branch: feature/with-tests
