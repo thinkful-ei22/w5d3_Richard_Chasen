@@ -2,3 +2,11 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: BYnynoC6qGeDFJyTY6VZv33Gd1jL7j1fvV+/Pw21uw1jQ1rqgQf521wuT3qEphqCu17NxOQsVTYE3cvAhLxKFwOwqtgPyOg5jxiUDhWP9copfH0dlJKNssyEO78yjcfZo+hNiWx0nycrmdUP2uT4X9LBKNgbbkH4VXmUJYhwsR5RwQ9YDRz1mfIdH3d9tmS+NA7+QeVzFZBCjp9Hf3BX7YwKVXS3j2vC0srWx7DgV5RV95T3RtnVnyG5QsW9jJ7OktdKBPyQhqmjs1WQRvl1tN88e8pr0gwAvWi91OOYIzQJUCE9KKzL31FHmFx4J4eMN4RbepyKGdhvc2iMsEzMQe2v5tHCtDu8LXtVNFEUcAFI/8+HonjTVIoC4kJaArR/ThhN/Z2OvycC26breu3so7I7iRqzmoFtzM74E35mGGnuc5c+APvSw2/166qeY77ghOHZxTFrOBI3zazB1WMuPPLaLxLPnHUFVFn0hngafM7HqUzEl4EAvtaXfs0L41PblcwAz+9kouJ3bn4isH8xyt1D4OXqHl6QAPpFc7ppQbiP9HdMTOdBW53sX6aqogdz6mCGP8nnvhbgL7r1lVa508pNkNgyF6+UmwuU9SpPgdMlQBGJQPyVlrSUUjp2rCbKN8LRl85Jk33LP31koLnmLK7Aoy+uE41jvT6Q+E5bcnE=
+  app: test-restaurant-w5d3
+  on:
+    repo: thinkful-ei22/w5d3_Richard_Chasen
+    branch: feature/with-tests
